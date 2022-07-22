@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-attachment: fixed;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #000000;
+    font-weight: 400;
+}
+
+h4,
+h5,
+h6,
+p,
+a,
+li {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+p{
+    font-size: 1rem;
+}
+#Hero {
+    background-image: url("../img/Banner-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 70vh;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 89px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 39px 0px rgba(0, 0, 0, 0.3);
+}
+
+#Planes, #Agendamiento {
+    padding: 5rem 0;
+}
+
+#Quienes {
+    padding: 5rem 0;
+    background-color: aquamarine;
+  
+}
+#Promo{
+    
+   background-color: rgb(21, 21, 21);
+    
+}
+#Footer{
+    background-color: black;
+    padding: 2rem 0;
+}
+
+
+.nav-logo{
+    width: 10rem;
+}
+.footer-logo{
+    width: 9rem;
+}
+.fa-brands{
+    font-size: 1.5rem;
+}
+.footer-icon{
+    cursor: pointer;
+    margin: 0 1rem;
+}
+.promo-text{
+    font-size: 2.3rem;
+}
+.servicios-subtitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.servicios-subtitle-span{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.servicios-importante{
+    text-align: center;
+}
+.hero-title {
+    font-size: 5rem;
+
+}
+.hero-btn, .promo-btn{
+    padding-top: 0.3rem!important;
+    padding-bottom: 0.5rem!important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2px;
+    font-size: 1rem;
+    border-style: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.hero-btn{
+    background-color: aquamarine;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    padding-top: 0.5rem!important;
+}
+.hero-btn:hover, .promo-btn:hover{
+    background-color: #212529;
+    border-style: none;
+    color: white;
+}
+.hero-par {
+    line-height: 2.2rem;
+    font-size: 2rem;
+    
+}
+.service-icon {
+    font-size: 1.5rem;
+    border: 1px solid #212529;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.service-par{
+    font-weight: 500;
+}
+.service-link{
+    cursor: pointer;
+}
+.submit-btn{
+    background-color: aquamarine;
+    border-style: none;
+    color: black;
+}
+.submit-btn:hover{
+    background-color: #212529;
+    color: white;
+
+}
+.testimonio{
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+}
+@media (max-width: 800px) {
+    #Planes {
+        padding: 5rem 2rem;
+    }
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    z-index: 99;
+}
